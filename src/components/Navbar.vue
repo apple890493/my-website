@@ -1,13 +1,19 @@
 <template>
   <div id="nav">
     <div class="menu-item">
-      <router-link to="/">Home</router-link>
+      <router-link to="/github">Github</router-link>
+    </div>
+    <div class="menu-item">
+      <router-link to="/work">Work</router-link>
+    </div>
+    <div class="menu-item menu-center">
+      <router-link to="/">NONO</router-link>
     </div>
     <div class="menu-item">
       <router-link to="/about">About</router-link>
     </div>
     <div class="menu-item">
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">Resume</router-link>
     </div>
   </div>
 </template>
@@ -19,16 +25,26 @@ export default {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Train+One&display=swap");
 #nav {
   padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-
-#nav a {
+.menu-item a {
   font-weight: bold;
+  font-size: 20px;
   color: #fff;
+  text-decoration: none;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.menu-item a.router-link-exact-active,
+.menu-item a:hover {
+  color: #f0e8de;
+  opacity: 0.6;
+}
+.menu-center a {
+  font-size: 36px;
+  font-family: "Train One", cursive;
 }
 </style>

@@ -16,10 +16,11 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap");
 @import "./assets/reset.css";
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   background-color: black;
   height: 100vh;
 }
