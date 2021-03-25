@@ -27,10 +27,16 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Train+One&display=swap");
 #nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
   padding: 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .menu-item a {
   font-weight: bold;
