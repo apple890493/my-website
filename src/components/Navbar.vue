@@ -29,7 +29,7 @@ export default {
 #nav {
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   left: 0;
   top: 0;
   padding: 30px;
